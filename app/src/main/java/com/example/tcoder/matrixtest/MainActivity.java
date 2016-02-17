@@ -24,7 +24,7 @@ public class MainActivity extends Activity implements View.OnTouchListener {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 
-        //呵呵
+        //呵
         view = new TransformMatrixView(this);
         view.setScaleType(ImageView.ScaleType.MATRIX);
         view.setOnTouchListener(this);
